@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For You ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Background Music -->
+<audio id="bgMusic" loop>
+  <source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a73467.mp3?filename=romantic-piano-110624.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Page 1 -->
+<div id="page1" class="page">
+  <h1>Hey love ❤️</h1>
+  <p>Something special is waiting for you...</p>
+  <button id="startBtn">Let me see 💕</button>
+</div>
+
+<!-- Page 2 -->
+<div id="page2" class="page hidden">
+  <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" class="cat">
+  <p>Are you ready?</p>
+  <button id="yesBtn">Yes 😍</button>
+  <button id="noBtn">No 😿</button>
+</div>
+
+<!-- Page 3 (Letter) -->
+<div id="page3" class="page hidden">
+  <div class="letter">
+    <h2>To My Beautiful Girl ❤️</h2>
+    <p>
+      From the moment you came into my life,  
+      everything became brighter.  
+      Your smile is my favorite sight,  
+      your voice is my favorite sound.  
+      <br><br>
+      No matter what happens,  
+      I promise to stand by you,  
+      laugh with you,  
+      and love you endlessly. 💖
+    </p>
+    <p class="signature">– Yours forever 💕</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
